@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product</title>
+  </head>
+  <body>
+    <div id="loading-indicator">Loading...</div>
+    <div id="filter-container" class="hidden">
+      <div class="filter">
+        <div class="button-filter">
+          <p>Строка филтьрации:</p>
+          <input type="text" id="filterInput" placeholder="Название товара">
+        </div> 
+      </div>
+
+    </div>
+    <div id="product-list"></div>
+    <div id="pagination-container" class="hidden">
+      <div class="pagination">
+        <button id="prev-btn"></button>
+        <span id="current-page"></span>
+        <button id="next-btn"></button>
+      </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
+  </body>
+</html>
